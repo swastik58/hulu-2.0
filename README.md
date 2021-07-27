@@ -8,7 +8,7 @@
 - THE APP IS HOSTED USING NETLIFY
 
 - NETLIFY : https://www.netlify.com/
-- WEBSITE LINK : 
+- WEBSITE LINK : https://indian-hulu.netlify.app/
 
 
 ## BUILD USING :
