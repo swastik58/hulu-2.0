@@ -1,16 +1,36 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer base
+{
+    body{
+        @apply bg-[#000000] text-gray-300; 
+    }
+    header
+    {
+        font-family: 'Zen Tokyo Zoo', cursive;
+    }
+    nav
+    {
+        font-family: 'Otomanopee One';
+    }
+    desc
+    {
+        font-family: 'Shadows Into Light';
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    name1{
+        font-family: 'Pirata One';
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-size: 35px;
+    }
+    released
+    {
+        font-family: 'Caveat';
+        font-size: 25px;
+    }
 
-* {
-  box-sizing: border-box;
 }
